@@ -1,0 +1,64 @@
+
+.address-details-main {
+    margin-top: 180px;
+}
+
+.address-details {
+    display: none;
+}
+
+.address-details h3 {
+    font-weight: normal;
+    margin: 6px 0;
+}
+
+.address-details div {
+    margin: 30px;
+    position: relative;
+}
+
+.address-details div h2 {
+    font-weight: normal;
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+.address-details div h3 {
+    font-weight: normal;
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+.email-button {
+    font-size: 10px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.edit-address {
+    display: none;
+    margin-top: 50px;
+}
+
+.edit-address input {
+    width: 58%;
+    padding: .2rem;
+    margin: .3rem 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.edit-address .submit {
+    width: 50%;
+}
+
+.active-address {
+    display: block;
+}
+
+.address-margin {
+    margin-top: 0;
+}

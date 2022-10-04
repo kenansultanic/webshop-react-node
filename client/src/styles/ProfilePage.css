@@ -1,0 +1,104 @@
+
+.profile-page-container {
+    display: grid;
+    gap: 1rem;
+    grid-auto-columns: 1fr;
+    grid-template-areas: 'one two';
+    margin-top: 100px;
+}
+
+.page-menu {
+    grid-area: one;
+    font-size: 12px;
+    padding: 1rem;
+}
+
+.page-menu ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.page-menu ul li {
+    padding: 1px 5px;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.page-menu ul li:hover {
+    border-bottom: 1px solid black;
+}
+
+.active-menu-item {
+    border-bottom: 1px solid black;
+}
+
+.page-menu-details {
+    grid-area: two;
+}
+
+.purchases-menu {
+    display: none;
+}
+
+.profile-menu {
+}
+
+.settings-menu {
+    display: none;
+}
+
+.active-menu {
+    display: block;
+}
+
+.purchases {
+    display: none;
+    padding-top: 30px;
+}
+
+.settings {
+    margin-top: 40px;
+    display: none;
+}
+
+.profile {
+    display: none;
+    margin-top: 50px;
+}
+
+.active {
+    display: block;
+}
+
+.profile div {
+    margin: 45px;
+    position: relative;
+    cursor: pointer;
+}
+
+.profile div div {
+    position: absolute;
+    margin: 0;
+    right: 0;
+    top: 7px;
+    font-size: 15px;
+}
+
+.profile div h2 {
+    font-weight: normal;
+    margin: 0;
+}
+
+.profile div h3 {
+    font-weight: normal;
+    margin: 0;
+}
+
+.profile-menu, .address-menu {
+    display: none;
+}
+
+.active-menu {
+    display: block;
+}

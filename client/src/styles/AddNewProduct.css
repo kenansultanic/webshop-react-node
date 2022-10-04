@@ -1,0 +1,81 @@
+.file-card {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 85%;
+}
+
+.file-inputs {
+    position: relative;
+}
+
+.file-inputs input {
+    position: relative;
+    text-align: right;
+    opacity: 0;
+    z-index: 2;
+    cursor: pointer;
+    height: 30px;
+    max-width: 200px;
+}
+
+.file-inputs button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #000;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 1em;
+    transition: background-color 0.4s;
+    box-shadow: 0 8px 24px rgba(149, 157, 165, 0.5);
+}
+
+.file-inputs i {
+    width: 1.5em;
+    height: 1.5em;
+    padding: 0.4em;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.8em;
+    font-size: 0.8em;
+}
+
+.file-list {
+    margin-right: 40px;
+}
+
+.file-item {
+    list-style: none;
+    margin: .4em 0;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+
+.file-item p {
+    flex: 1;
+    font-size: 0.9rem;
+}
+
+.file-item .actions {
+    justify-self: flex-end;
+    cursor: pointer;
+}

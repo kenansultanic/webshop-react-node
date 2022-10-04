@@ -1,0 +1,114 @@
+.index-main {
+    height: 100%;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-areas: 'one two' 'one two';
+}
+
+.index-image {
+    max-width: 100%;
+    height: 100%;
+    overflow: auto;
+    grid-area: one;
+}
+
+.index-image img {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.index-login {
+    grid-area: two;
+}
+
+.index-login-form, .index-register-form {
+    margin: 30% auto auto;
+    text-align: center;
+    display: none;
+}
+
+.index-register-form {
+    margin: 20% auto auto;
+
+}
+
+.login-options p {
+    font-size: x-small;
+    color: gray !important;
+    cursor: pointer;
+    margin: 2px;
+    text-decoration: none !important;
+    text-underline: none !important;
+}
+
+
+.login-options {
+    text-align: left;
+    width: 90%;
+    margin: auto;
+}
+
+.index-login-form input, .index-register-form input {
+    width: 90%;
+    padding: .4rem;
+    margin: .5rem 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.button {
+    width: 60%;
+    margin-top: 1.5rem;
+}
+
+.index-register-form {
+    display: none;
+}
+
+.login-active {
+    display: block;
+}
+
+.alert-container {
+    margin-top: 30px;
+    display: none;
+}
+
+.display-alert {
+    display: block;
+}
+
+.newsletter-signup {
+    text-align: left;
+    margin-left: 4%;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .index-main {
+        grid-template-areas: 'two';
+    }
+
+    .index-image {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    .index-register-form, .index-login-form {
+        font-size: x-large;
+    }
+
+    .index-register-form input, .index-login-form input {
+        margin: 1rem;
+    }
+
+    .index-register-form p, .index-login-form p {
+        margin: .6rem;
+    }
+}

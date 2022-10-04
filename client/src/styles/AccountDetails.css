@@ -1,0 +1,97 @@
+
+.details-main {
+    height: 100%;
+    font-size: 8px;
+    margin-top: 180px;
+}
+
+.details {
+    display: none;
+}
+
+.details div {
+    margin: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.details div div {
+    position: absolute;
+    margin: 0;
+    right: 20px;
+    top: 0;
+    font-size: 15px;
+}
+
+.details div h2 {
+    font-weight: normal;
+    margin: 0;
+}
+
+.details div h3 {
+    font-weight: normal;
+    margin: 0;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.sign-out-button {
+    font-size: 10px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.change-email, .change-password {
+    display: none;
+}
+
+.change-email input, .change-password input {
+    width: 58%;
+    padding: .4rem;
+    margin: .5rem 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+
+.change-email h2, .change-password h2 {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.change-email h4, .change-password h4 {
+      font-weight: normal;
+      font-size: larger;
+}
+
+.change-email .email {
+    font-weight: bold;
+}
+
+.submit-button {
+    margin: 12px auto;
+}
+
+.details-active {
+    display: block;
+}
+
+.back-button {
+    width: 50px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.details-new-margin {
+    margin-top: 25px;
+}
+
+.change-password button {
+    margin-top: 50px;
+}

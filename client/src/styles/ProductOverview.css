@@ -1,0 +1,161 @@
+
+.product-details {
+    margin: 100px 30px 30px 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-image {
+    width: 40%;
+    height: 100%;
+    margin-right: 70px;
+    overflow: auto;
+
+}
+
+.product-image img {
+    height: 100%;
+    max-width: 70%;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+}
+
+.product-info {
+    width: 50%;
+}
+
+.product-info h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.product-info h2 {
+    font-size: 26px;
+}
+
+.product-info select {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.product-info input {
+    width: 30px;
+    height: 20px;
+    padding-left: 10px;
+    font-size: 8px;
+    margin-right: 10px;
+    display: block;
+}
+
+.product-info input:focus {
+    outline: none;
+}
+
+.cart-button {
+    margin: 50px auto;
+    width: 60%;
+}
+
+
+
+
+.app{
+    max-width: 1200px;
+    width: 100%;
+    margin: 100px auto;
+    box-shadow: 0 0 5px #ccc;
+}
+.products-details{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+.products-details .big-img{
+    max-width: 500px;
+    min-width: 290px;
+    overflow: hidden;
+    margin: 25px;
+}
+.big-img img{
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    display: block;
+    object-fit: cover;
+}
+
+.products-details .box{
+    max-width: 500px;
+    min-width: 290px;
+    margin: 25px;
+}
+.box .row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.box .row h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.box .colors button{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    outline: none;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.box p{
+    line-height: 1.5;
+    margin: 15px 0;
+}
+.thumb{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    cursor: pointer;
+    margin: 10px 0;
+}
+.thumb img{
+    width: 90px;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+.thumb img.active{
+    opacity: 1;
+    border: 1px solid lightseagreen;
+}
+.box .cart{
+    background: #333;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 25px;
+    margin-top: 15px;
+}
+
+.selected-color {
+    border: 2px solid black !important;
+}
+
+@media (max-width: 500px){
+    .thumb{
+        height: 50px;
+    }
+    .thumb img{
+        width: 50px;
+    }
+}

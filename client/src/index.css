@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200;300&family=Dosis:wght@200&family=Poppins:ital,wght@0,200;1,200;1,300&display=swap');
+
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Albert Sans', sans-serif;
+}
